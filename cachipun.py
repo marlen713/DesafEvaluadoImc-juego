@@ -24,5 +24,5 @@ elif usuario == "piedra" and pc == "piedra" or usuario == "papel" and pc == "pap
 elif usuario == "piedra" and pc == "tijera" or usuario == "tijera" and pc == "papel" or usuario == "papel" and pc == "piedra":
     print(f"Tu jugaste {usuario.capitalize()} \nComputador jugó {pc} \nGanastes!!")
 # GANA EL COMPUTADOR
-elif usuario == "piedra" and pc == "papel" or usuario == "papel" and pc == "tijera" or usuario == "tijera" and pc == "piedra":
+else:
     print(f"Tu jugaste {usuario.capitalize()} \nComputador jugó {pc} \nPerdiste!!")
