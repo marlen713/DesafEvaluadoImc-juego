@@ -8,7 +8,7 @@ W : corresponde al peso de la persona en Kg.
 H: corresponde a la altura en metros.
 IMC: EL valor del IMC, en [Kg/m2]
 '''
-from decimal import *
+
 # AQUI ES PARA QUE PODAMOS INGRESAR NUESTROS DATOS
 w = float(input("Coloca tu peso en número: "))
 centimetros = float(input("Coloca tu altura en centímetros: "))
