@@ -15,7 +15,7 @@ centimetros = float(input("Coloca tu altura en centímetros: "))
 # ESTA ES PARA QUE LOS CENTIMETROS DADO ME LOS DIVIDA Y PODER USARLOS EN LA FORMULA
 h = centimetros /100
 
-# AQUI MI FORMULA LA CUAL debo la altura primero exponenciarla para luego dividir y me de mi IMC
+# AQUI MI FORMULA LA CUAL  me de mi IMC
 imc = w / (h**2)
 
 if imc >= 0 and imc <= 18.4:
